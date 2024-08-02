@@ -20,7 +20,7 @@ import com.example.demo.services.registration_service;
 @RestController
 //to pass data from postman 
 @RequestMapping("/api/v1")
-@CrossOrigin("http://localhost:4200")
+// @CrossOrigin("http://localhost:4200")
 //angular Connection(front end to back end
 public class registration_controller {
 	@Autowired
